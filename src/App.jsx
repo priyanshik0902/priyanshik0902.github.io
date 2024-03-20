@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Hero from './components/Hero';
 import Test from './components/Test';
-// import SkillsPage from './components/SkillsPage';
+import SkillsPage from './components/SkillsPage';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <div className="relative h-screen overflow-y-scroll bg-black">
         <Routes>
           <Route path="/" element={<Home />} />
-{/*           <Route path="/skills" element={<SkillsPage />} /> */}
+          <Route path="/skills" element={<SkillsPage />} />
         </Routes>
       </div>
     </Router>
