@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Hero from './components/Hero';
-// import Test from './components/Test';
+import Test from './components/Test';
 // import SkillsPage from './components/SkillsPage';
 
 
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="relative h-screen overflow-y-scroll bg-black">
         <Routes>
-          <Route path="/" element={<Hero />} />
+          <Route path="/" element={<Home />} />
 {/*           <Route path="/skills" element={<SkillsPage />} /> */}
         </Routes>
       </div>
@@ -20,14 +20,14 @@ function App() {
   );
 }
 
-// function Home() {
-//   return (
-//     <div>
-//       <Hero />
-//       <Test id="test" />
-//     </div>
-//   );
-// }
+function Home() {
+  return (
+    <div>
+      <Hero />
+      <Test id="test" />
+    </div>
+  );
+}
 
 export default App;
 
