@@ -13,7 +13,7 @@ const Skills = () => {
       <div className='flex flex-col gap-20 text-center items-center z-10 '>
         <div className='flex flex-col items-center gap-4 ' >
         <p className="text-gray-400 text-[20px]">
-            Please Refresh....
+
           </p>
           <h1 className="font-semibold text-white text-[50px] ">
             Skills{" "}

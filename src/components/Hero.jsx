@@ -6,7 +6,7 @@ import women from "../images/woman_developer-transformed.png"
 
 
 
-const sentence = "Develope";
+const sentence = "Developer";
 
 const Hero = () => {
   return (
@@ -43,9 +43,15 @@ const Hero = () => {
               Developer aficionado who has a deep understanding of front-end and
               backend. My interest and experience also extend to Cloud Computing.
             </div>
-            <button className="p-3 border-dashed border-purple-700 border-4 hover:border-solid rounded">
-              My Resume
-            </button>
+            <a
+  href="/Priyanshi_Kotian__Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="p-3 border-dashed border-purple-700 border-4 hover:border-solid rounded inline-block"
+>
+  My Resume
+</a>
+
           </div>
           <div className="relative ml-10">
             <img

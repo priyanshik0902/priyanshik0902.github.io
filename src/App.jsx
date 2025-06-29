@@ -1,11 +1,10 @@
-
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Hero from './components/Hero';
 import Test from './components/Test';
 import SkillsPage from './components/SkillsPage';
-
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -13,6 +12,7 @@ function App() {
       <div className="relative h-screen overflow-y-scroll bg-black">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact/>} />
           <Route path="/skills" element={<SkillsPage />} />
         </Routes>
       </div>
@@ -30,21 +30,3 @@ function Home() {
 }
 
 export default App;
-
-
-// import React from 'react';
-// import { Canvas } from '@react-three/fiber';
-// import { OrbitControls, Stage } from '@react-three/drei';
-// import Scene from "../public/images/Scene";
-//
-// const App = () => {
-//   return (
-//     <Canvas>
-//       <Stage environment="city" intensity={0.6}>
-//         <Scene/>
-//       </Stage>
-//       <OrbitControls enableZoom={false} />
-//     </Canvas>
-//   );
-// };
-//  export default App;
