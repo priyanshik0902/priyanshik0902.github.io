@@ -6,7 +6,7 @@ import women from "../images/woman_developer-transformed.png"
 
 
 
-const sentence = "Developer";
+const sentence = "Develope";
 
 const Hero = () => {
   return (
